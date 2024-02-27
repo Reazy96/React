@@ -1,0 +1,23 @@
+header h1 {
+  color: #bcbddd;
+}
+header span {
+  color: #90a0d9;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding-block: 70px;
+  padding-inline: 20%;
+  color: #bcbddd;
+}
+
+header button {
+  padding: 10px 20px;
+  background-color: #23283e;
+  border: 2px solid #bcbddd;
+  color: #bcbddd;
+}
