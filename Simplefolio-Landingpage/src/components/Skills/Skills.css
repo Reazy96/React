@@ -1,0 +1,23 @@
+.skills h2 {
+  color: #bcbddd;
+  margin: 30px 0px 50px 0px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.skills div {
+  display: flex;
+  gap: 50px;
+}
+
+.skills div p {
+  color: #90a0d9;
+  background-color: #2a304c;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
