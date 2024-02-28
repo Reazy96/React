@@ -1,0 +1,14 @@
+.film-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(49, 48, 48);
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.genre-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

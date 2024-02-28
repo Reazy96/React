@@ -1,0 +1,10 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(28, 26, 26);
+  color: white;
+  gap: 50px;
+  padding: 10%;
+  justify-content: center;
+  text-align: center;
+}
