@@ -1,0 +1,15 @@
+img {
+  max-width: 250px;
+}
+.product-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: lightblue;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+}
