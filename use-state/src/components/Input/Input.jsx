@@ -7,12 +7,22 @@ const Input = () => {
   const [mail, setMail] = useState("");
 
   return (
-    <section className="input">
-      <div>
+    <section className="input-wrapper">
+      <div className="input">
         {" "}
-        <input type="text" onChange={(event) => setFirstname(event.target.value)} value={firstname} />
-        <input type="text" onChange={(event) => setLastname(event.target.value)} value={lastname} />
-        <input type="email" onChange={(event) => setMail(event.target.value)} value={mail} />
+        <input
+          placeholder="Vorname"
+          type="text"
+          onChange={(event) => setFirstname(event.target.value)}
+          value={firstname}
+        />
+        <input
+          placeholder="Nachname"
+          type="text"
+          onChange={(event) => setLastname(event.target.value)}
+          value={lastname}
+        />
+        <input placeholder="E-Mail" type="email" onChange={(event) => setMail(event.target.value)} value={mail} />
       </div>
 
       <div className="output">
@@ -21,8 +31,6 @@ const Input = () => {
         <p>E-Mail: {mail}</p>
       </div>
     </section>
-
-    
   );
 };
 

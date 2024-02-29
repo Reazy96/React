@@ -1,4 +1,4 @@
-.input {
+.input-wrapper {
   color: white;
   display: flex;
   flex-direction: column;
@@ -6,4 +6,17 @@
   padding-inline: 10%;
   padding-block: 1%;
   margin-top: 30px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+:focus {
+  outline: none;
 }
