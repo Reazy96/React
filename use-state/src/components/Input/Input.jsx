@@ -21,6 +21,8 @@ const Input = () => {
         <p>E-Mail: {mail}</p>
       </div>
     </section>
+
+    
   );
 };
 

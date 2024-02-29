@@ -1,4 +1,5 @@
 import Counter from "../../components/Counter/Counter";
+import DarkLight from "../../components/DarkLight/DarkLight";
 import Faq from "../../components/Faq/Faq";
 import Input from "../../components/Input/Input";
 import "./Home.css";
@@ -9,6 +10,7 @@ const Home = () => {
       <Faq />
       <Counter />
       <Input />
+      <DarkLight />
     </main>
   );
 };

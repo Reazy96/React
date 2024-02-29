@@ -1,0 +1,13 @@
+.dark,
+.light {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-inline: 20%;
+  padding: 10px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
