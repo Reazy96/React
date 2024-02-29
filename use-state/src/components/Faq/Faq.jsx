@@ -13,7 +13,8 @@ const Faq = () => {
       </section>
 
       {popup && (
-        <section>
+        <section className="faq">
+          <hr />
           <p>Fast learning curve</p>
         </section>
       )}
