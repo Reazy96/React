@@ -7,7 +7,7 @@ const Faq = () => {
 
   return (
     <>
-      <section>
+      <section className="faq">
         <p>Why is React great?</p>
         <button onClick={() => setPopup((popup) => !popup)}>-</button>
       </section>
