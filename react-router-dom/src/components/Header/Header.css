@@ -1,0 +1,26 @@
+header {
+  background-color: beige;
+  padding-block: 30px;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  align-items: center;
+  margin-right: 100px;
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  background-color: lightgray;
+  padding: 12px 10px;
+  border-radius: 25px;
+}
+
+header nav .active {
+  font-weight: bold;
+  color: blue;
+}
